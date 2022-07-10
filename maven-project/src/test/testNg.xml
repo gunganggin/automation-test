@@ -7,6 +7,7 @@
                     <exclude name=".*dropDown.*" />
                     <exclude name=".*praAlert.*" />
                     <exclude name=".*praPopup.*" />
+                    <exclude name=".*selectOption.*" />
 
                 </methods>
             </class>
