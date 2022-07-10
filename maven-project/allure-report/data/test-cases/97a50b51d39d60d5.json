@@ -1,0 +1,259 @@
+{
+  "uid" : "97a50b51d39d60d5",
+  "name" : "compareAllTextInPage",
+  "fullName" : "SeleniumAuto.Demo.compareAllTextInPage",
+  "historyId" : "1e5efea0faf887f065f899d2a77b0c68",
+  "time" : {
+    "start" : 1657092938931,
+    "stop" : 1657092942240,
+    "duration" : 3309
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1657092930394,
+      "stop" : 1657092938678,
+      "duration" : 8284
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1657092938745,
+      "stop" : 1657092938745,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1657092942258,
+      "stop" : 1657092942266,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1657092942270,
+      "stop" : 1657092943468,
+      "duration" : 1198
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SeleniumAuto.Demo"
+  }, {
+    "name" : "testClass",
+    "value" : "SeleniumAuto.Demo"
+  }, {
+    "name" : "testMethod",
+    "value" : "compareAllTextInPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Demo"
+  }, {
+    "name" : "suite",
+    "value" : "First Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SeleniumAuto.Demo"
+  }, {
+    "name" : "host",
+    "value" : "Phans-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "12429@Phans-MacBook-Air.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e9fcf5ffad9a29c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657087702110,
+        "stop" : 1657087705006,
+        "duration" : 2896
+      }
+    }, {
+      "uid" : "61247689cb3781bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657086349718,
+        "stop" : 1657086352908,
+        "duration" : 3190
+      }
+    }, {
+      "uid" : "a04c0251133c2cff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657086055813,
+        "stop" : 1657086058590,
+        "duration" : 2777
+      }
+    }, {
+      "uid" : "e46cb915cb9fe2c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657085516902,
+        "stop" : 1657085519515,
+        "duration" : 2613
+      }
+    }, {
+      "uid" : "3375b3929262fecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657085368331,
+        "stop" : 1657085371623,
+        "duration" : 3292
+      }
+    }, {
+      "uid" : "bb50a4772a53c7b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657085288138,
+        "stop" : 1657085290708,
+        "duration" : 2570
+      }
+    }, {
+      "uid" : "41c45c9095b5835e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657085249570,
+        "stop" : 1657085253242,
+        "duration" : 3672
+      }
+    }, {
+      "uid" : "96d117d5f1180a51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657084983884,
+        "stop" : 1657084986872,
+        "duration" : 2988
+      }
+    }, {
+      "uid" : "b193dc7615f58df6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657081662552,
+        "stop" : 1657081665440,
+        "duration" : 2888
+      }
+    }, {
+      "uid" : "cd9358b7929a3c5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657080939820,
+        "stop" : 1657080942773,
+        "duration" : 2953
+      }
+    }, {
+      "uid" : "ceed0d0743ff1875",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657080876087,
+        "stop" : 1657080878741,
+        "duration" : 2654
+      }
+    }, {
+      "uid" : "8a546d49f1c4837d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657080785667,
+        "stop" : 1657080789840,
+        "duration" : 4173
+      }
+    }, {
+      "uid" : "f4fc51501403017e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657042738463,
+        "stop" : 1657042741232,
+        "duration" : 2769
+      }
+    }, {
+      "uid" : "74c04929a59432a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657042376933,
+        "stop" : 1657042379793,
+        "duration" : 2860
+      }
+    }, {
+      "uid" : "cffac28f23ab4514",
+      "status" : "failed",
+      "statusDetails" : "expected [edfed] but found []",
+      "time" : {
+        "start" : 1657038132830,
+        "stop" : 1657038135883,
+        "duration" : 3053
+      }
+    }, {
+      "uid" : "cd3115f82829a02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657035637201,
+        "stop" : 1657035640023,
+        "duration" : 2822
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97a50b51d39d60d5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,17 @@
+<suite name = "Demo">
+    <test name = "First Test">
+        <classes>
+            <class name = "SeleniumAuto.Demo" >
+                <methods>
+                    <exclude name=".*dynamicDropdown.*" />
+                    <exclude name=".*dropDown.*" />
+                    <exclude name=".*praAlert.*" />
+                    <exclude name=".*praPopup.*" />
+                    <exclude name=".*selectOption.*" />
+                    <exclude name=".*radioCheck.*" />
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

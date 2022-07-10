@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 06 14:35:38 ICT 2022","Wed Jul 06 14:35:42 ICT 2022","3309","Demo","First Test","SeleniumAuto.Demo","SeleniumAuto.Demo","compareAllTextInPage","compareAllTextInPage",""

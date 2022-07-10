@@ -1,0 +1,11 @@
+[ {
+  "uid" : "97a50b51d39d60d5",
+  "name" : "compareAllTextInPage",
+  "time" : {
+    "start" : 1657092938931,
+    "stop" : 1657092942240,
+    "duration" : 3309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
