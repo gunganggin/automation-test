@@ -4,10 +4,8 @@
             <class name = "SeleniumAuto.Demo" >
                 <methods>
                     <exclude name=".*dynamicDropdown.*" />
-                    <exclude name=".*dropDown.*" />
                     <exclude name=".*praAlert.*" />
                     <exclude name=".*praPopup.*" />
-
 
                 </methods>
             </class>
