@@ -269,7 +269,7 @@ public class Demo {
             int check = 0;
             if(radioCheck == true){
                 check++;
-                if(check == 1){ //edit
+                if(check == 2){
                     Assert.fail("Radio can not multi check");
                     break;
                 }
