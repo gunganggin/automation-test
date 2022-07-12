@@ -6,7 +6,6 @@
                     <exclude name=".*dynamicDropdown.*" />
                     <exclude name=".*praAlert.*" />
                     <exclude name=".*praPopup.*" />
-                    <exclude name=".*radioCheck.*" />
 
                 </methods>
             </class>
