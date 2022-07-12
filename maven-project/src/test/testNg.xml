@@ -7,7 +7,6 @@
                     <exclude name=".*praAlert.*" />
                     <exclude name=".*praPopup.*" />
                     <exclude name=".*radioCheck.*" />
-                    <exclude name=".*selectOption.*" />
 
                 </methods>
             </class>
