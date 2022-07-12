@@ -1,36 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Demo" duration-ms="12778" started-at="2022-07-10T12:32:32 ICT" finished-at="2022-07-10T12:32:45 ICT">
+  <suite name="Demo" duration-ms="13800" started-at="2022-07-12T12:03:33 ICT" finished-at="2022-07-12T12:03:47 ICT">
     <groups>
     </groups>
-    <test name="First Test" duration-ms="12778" started-at="2022-07-10T12:32:32 ICT" finished-at="2022-07-10T12:32:45 ICT">
+    <test name="First Test" duration-ms="13800" started-at="2022-07-12T12:03:33 ICT" finished-at="2022-07-12T12:03:47 ICT">
       <class name="SeleniumAuto.Demo">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:SeleniumAuto.Demo@644c78d4]" name="SetUp" is-config="true" duration-ms="7963" started-at="2022-07-10T12:32:32 ICT" finished-at="2022-07-10T12:32:40 ICT">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="SetUp" is-config="true" duration-ms="7471" started-at="2022-07-12T12:03:33 ICT" finished-at="2022-07-12T12:03:41 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumAuto.Demo@644c78d4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-10T12:32:40 ICT" finished-at="2022-07-10T12:32:40 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-12T12:03:41 ICT" finished-at="2022-07-12T12:03:41 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="compareAllTextInPage()[pri:0, instance:SeleniumAuto.Demo@644c78d4]" name="compareAllTextInPage" duration-ms="3414" started-at="2022-07-10T12:32:40 ICT" finished-at="2022-07-10T12:32:44 ICT">
+        <test-method status="PASS" signature="compareAllTextInPage()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="compareAllTextInPage" duration-ms="3404" started-at="2022-07-12T12:03:41 ICT" finished-at="2022-07-12T12:03:44 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareAllTextInPage -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SeleniumAuto.Demo@644c78d4]" name="afterMethod" is-config="true" duration-ms="12" started-at="2022-07-10T12:32:44 ICT" finished-at="2022-07-10T12:32:44 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="afterMethod" is-config="true" duration-ms="13" started-at="2022-07-12T12:03:44 ICT" finished-at="2022-07-12T12:03:44 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=compareAllTextInPage status=SUCCESS method=Demo.compareAllTextInPage()[pri:0, instance:SeleniumAuto.Demo@644c78d4] output={null}]]]>
+                <![CDATA[[TestResult name=compareAllTextInPage status=SUCCESS method=Demo.compareAllTextInPage()[pri:0, instance:SeleniumAuto.Demo@7997b197] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:SeleniumAuto.Demo@644c78d4]" name="TearDown" is-config="true" duration-ms="1187" started-at="2022-07-10T12:32:44 ICT" finished-at="2022-07-10T12:32:45 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-12T12:03:44 ICT" finished-at="2022-07-12T12:03:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dropDown()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="dropDown" duration-ms="666" started-at="2022-07-12T12:03:44 ICT" finished-at="2022-07-12T12:03:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="afterMethod" is-config="true" duration-ms="4" started-at="2022-07-12T12:03:45 ICT" finished-at="2022-07-12T12:03:45 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDown status=SUCCESS method=Demo.dropDown()[pri:0, instance:SeleniumAuto.Demo@7997b197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-12T12:03:45 ICT" finished-at="2022-07-12T12:03:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="radioCheck()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="radioCheck" duration-ms="235" started-at="2022-07-12T12:03:45 ICT" finished-at="2022-07-12T12:03:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioCheck -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="afterMethod" is-config="true" duration-ms="8" started-at="2022-07-12T12:03:45 ICT" finished-at="2022-07-12T12:03:45 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=radioCheck status=SUCCESS method=Demo.radioCheck()[pri:0, instance:SeleniumAuto.Demo@7997b197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-12T12:03:45 ICT" finished-at="2022-07-12T12:03:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectOption()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="selectOption" duration-ms="495" started-at="2022-07-12T12:03:45 ICT" finished-at="2022-07-12T12:03:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOption -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="afterMethod" is-config="true" duration-ms="5" started-at="2022-07-12T12:03:46 ICT" finished-at="2022-07-12T12:03:46 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectOption status=SUCCESS method=Demo.selectOption()[pri:0, instance:SeleniumAuto.Demo@7997b197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:SeleniumAuto.Demo@7997b197]" name="TearDown" is-config="true" duration-ms="1248" started-at="2022-07-12T12:03:46 ICT" finished-at="2022-07-12T12:03:47 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

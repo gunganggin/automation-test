@@ -116,8 +116,6 @@
             <version>2.9.0</version>
         </dependency>
 
-
-
     </dependencies>
 
     <build>
@@ -133,17 +131,6 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar"
                     </argLine>
-
-                    <systemProperties>
-                        <property>
-                            <name>allure.results.directory</name>
-                            <value>/Users/gun/Documents/JavaCodeForAuto/AnhTester/maven-project/allure-results/allure-results</value>
-                        </property>
-                        <property>
-                            <name>allure.results.directory</name>
-                            <value>/Users/gun/.jenkins/workspace/jenkins-tutorial/allure-results</value>
-                        </property>
-                    </systemProperties>
                 </configuration>
                 <dependencies>
                     <dependency>

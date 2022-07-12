@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Demo" title="SeleniumAuto.Demo" hash-for-method="compareAllTextInPage">compareAllTextInPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="SeleniumAuto.Demo" hash-for-method="dropDown">dropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="SeleniumAuto.Demo" hash-for-method="radioCheck">radioCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="SeleniumAuto.Demo" hash-for-method="selectOption">selectOption</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Demo -->
@@ -132,6 +147,27 @@
                   <span class="method-name">compareAllTextInPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropDown">
+                  </a> <!-- dropDown -->
+                  <span class="method-name">dropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radioCheck">
+                  </a> <!-- radioCheck -->
+                  <span class="method-name">radioCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOption">
+                  </a> <!-- selectOption -->
+                  <span class="method-name">selectOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Demo-class-passed -->
         </div> <!-- panel Demo -->
@@ -149,11 +185,8 @@
       &lt;class name=&quot;SeleniumAuto.Demo&quot;&gt;
         &lt;methods&gt;
           &lt;exclude name=&quot;.*dynamicDropdown.*&quot;/&gt;
-          &lt;exclude name=&quot;.*dropDown.*&quot;/&gt;
           &lt;exclude name=&quot;.*praAlert.*&quot;/&gt;
           &lt;exclude name=&quot;.*praPopup.*&quot;/&gt;
-          &lt;exclude name=&quot;.*selectOption.*&quot;/&gt;
-          &lt;exclude name=&quot;.*radioCheck.*&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- SeleniumAuto.Demo --&gt;
     &lt;/classes&gt;
@@ -195,16 +228,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'compareAllTextInPage')
 data.setCell(0, 2, 'SeleniumAuto.Demo')
-data.setCell(0, 3, 3414);
+data.setCell(0, 3, 3404);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dropDown')
+data.setCell(1, 2, 'SeleniumAuto.Demo')
+data.setCell(1, 3, 666);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectOption')
+data.setCell(2, 2, 'SeleniumAuto.Demo')
+data.setCell(2, 3, 495);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'radioCheck')
+data.setCell(3, 2, 'SeleniumAuto.Demo')
+data.setCell(3, 3, 235);
 window.suiteTableData['Demo']= { tableData: data, tableDiv: 'times-div-Demo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Demo">
               </div> <!-- times-div-Demo -->
             </div> <!-- times-div -->
@@ -219,23 +264,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Demo" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">6 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">SeleniumAuto.Demo</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">dropDown</span>
-                <br/>
                 <span class="ignored-method-name">dynamicDropdown</span>
                 <br/>
                 <span class="ignored-method-name">praPopup</span>
                 <br/>
-                <span class="ignored-method-name">selectOption</span>
-                <br/>
                 <span class="ignored-method-name">praAlert</span>
-                <br/>
-                <span class="ignored-method-name">radioCheck</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -254,19 +293,55 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">8022 ms</span>
+                <span class="method-start">7546 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">compareAllTextInPage</span>
-                <span class="method-start">8131 ms</span>
+                <span class="method-start">7662 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=compareAllTextInPage status=SUCCESS method=Demo.compareAllTextInPage()[pri:0, insta...)</span>
-                <span class="method-start">11561 ms</span>
+                <span class="method-start">11087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">11110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dropDown</span>
+                <span class="method-start">11111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=dropDown status=SUCCESS method=Demo.dropDown()[pri:0, instance:SeleniumAuto.Demo@79...)</span>
+                <span class="method-start">11780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">11786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">radioCheck</span>
+                <span class="method-start">11786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=radioCheck status=SUCCESS method=Demo.radioCheck()[pri:0, instance:SeleniumAuto.Dem...)</span>
+                <span class="method-start">12022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">12031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectOption</span>
+                <span class="method-start">12033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=selectOption status=SUCCESS method=Demo.selectOption()[pri:0, instance:SeleniumAuto...)</span>
+                <span class="method-start">12531 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">11579 ms</span>
+                <span class="method-start">12541 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

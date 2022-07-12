@@ -1,2 +1,8 @@
+RestAssured/PutMethod.class
+RestAssured/GsonContain.class
 Common/CommonFunction.class
+RestAssured/GetMethod.class
+RestAssured/PatchMethod.class
+RestAssured/RequestCapability.class
 SeleniumAuto/Demo.class
+RestAssured/PostMethod.class
